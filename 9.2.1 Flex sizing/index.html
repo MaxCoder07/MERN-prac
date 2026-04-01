@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Sizing</title>
+</head>
+
+<style>
+        .container {
+            display: flex;
+            gap: 10px;
+            border: 5px solid black;;
+        }
+
+        .container > * {
+            border: 3.5px solid brown;
+            width: 50px;
+            flex-basis: 100px;
+        }
+
+</style>
+
+
+<body>
+    <div class="container">
+        <p>Home</p>
+        <p>About</p>
+        <p>Contact Us</p>
+        <p>I am the best programmer</p>
+    </div>
+</body>
+</html>

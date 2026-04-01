@@ -1,0 +1,128 @@
+.first-color { 
+	background: #f70776; 
+}
+	
+.second-color { 
+	background: #c3195d; 
+}
+
+.third-color { 
+	background: #680747; 
+}
+
+.fourth-color { 
+	background: #141010; 
+}
+
+/*  Index Page */
+
+
+* {
+    background-color: lightgrey;
+    font-family: "Cormorant Garamond", serif;
+    font-optical-sizing: auto;
+    background-color: #680747;
+    color: floralwhite;
+}
+
+.profile-img {
+    height: 300px;
+    width: 250px;
+    border:10px solid black;
+    padding: 10px;
+
+}
+
+
+.title {
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 0;
+
+}
+
+.flex-container {
+    display: flex;
+    gap: 10px;
+    background-color: #141010;
+    
+
+    
+}
+
+.flex-items {
+    flex-basis: 25%;
+    border: 2px solid gray;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+}
+
+li {
+    list-style: none;
+}
+
+
+
+
+
+
+
+/*  Projects Page */
+
+.projects-title, .projects-subtitle {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.skills-grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 260px);
+    grid-template-rows: repeat(3, auto);
+    gap: 50px;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.skills {
+    border: 3px solid wheat;
+    list-style: none;
+    padding: 50px;
+    background-color: #c3195d;
+    border-radius: 10px;
+}
+
+.skills-logo {
+    width: 110px;
+    height: 110px;
+    object-fit: contain;
+    display: block;
+    margin-bottom: 20px;
+}
+.html, .css, .bootstrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 220px;
+}
+
+.html {
+    grid-column: span 2;
+}
+
+.css {
+    grid-row: span 3;
+    align-items: center;
+    
+}
+
+.bootstrap {
+    grid-row: span 2;;
+    align-items:center;
+    grid-column: span 2;;
+}
+
+
+
+/*  About Page */
+/*  Contact Page */
